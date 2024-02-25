@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 250vh;
+}
+.nav-container{
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: #199de5;
+    align-items: center;
+}
+a{
+    min-width: 60px;
+    height: 100%;
+    width: 60px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+a:hover{
+    background-color: white;
+    color: #076490;
+}
+.seytech{
+    text-decoration: none;
+    background-color: #076490;
+    width: 140px;
+    height: 100%;
+}
+.fa-house{
+    margin-right: 10px;
+}
+.seytech:hover{
+    background-color: rgb(193, 189, 189);
+}
+
+/* Here will starts content */
+section{
+    display: grid;
+    grid-template-columns: 25% auto 17%;
+    grid-template-rows: auto;
+}
+
+/* Left Side CSS */
+.left-item{
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    
+}
+/* Left item - 1*/
+.item1{
+    padding: 10px;
+}
+.profile-image{
+    display: grid;
+    justify-content: center;
+}
+#profile-img{
+    width: 90px;
+    height: 90px;
+}
+.item1 i{
+    margin-top: 5%;
+    margin-right: 20px;
+    color: gray;
+}
+
+/* Left item - 2*/
+.item2{
+    display: grid;
+    grid-template-columns: 100%;
+}
+.lines{
+    font-size: 30px;
+    gap: 5px;
+}
+.item2 i{
+    margin-right: 10px;
+}
+.marked{
+    background-color: #199de5;
+    color: white;
+    padding: 5px;
+}
+.marked:hover{
+    background-color: #076490;
+    cursor: pointer;
+    color: black;
+}
+.images{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    padding: 10px;
+}
+.images img{
+    max-width: 100px;
+    max-height: 80px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Item3 Starts Here*/
+.item3{
+   display: flex;
+   grid-template-columns: auto auto auto auto;
+   grid-template-rows: auto auto auto;
+   padding: 10px;
+   gap: 10px;
+   justify-content: center;
+   align-items: center;
+}
+.item3 span{
+    width: auto;
+    color: white;
+    padding: 5px 8px 5px 8px;
+    font-size: 16px;
+    background-color: #199de5;
+}
+
+/* Item4 Starts Here*/
+.item4{
+    background-color: #dfe5e8;
+    display: grid;
+    grid-template-columns: auto 15%;
+    grid-row: 50% 50%;
+}
+.item4 p{
+    padding: 10px;
+}
+.item4 h2{
+    padding: 15px;
+}
+.item4 button{
+    float: inline-end;
+    left: 100%;
+    background-color: #becbd2;
+    padding: 10px;
+    border: 0;
+    font-weight: bold;
+}
+.item4 button:hover{
+    background-color: rgb(125, 124, 124);
+    cursor: pointer;
+}
